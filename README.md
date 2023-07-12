@@ -12,6 +12,7 @@ There are 2 optional paramaters that can be set when rolling the dice:
 ## Usage
 
 ```python
+from dice import Dice
 
 dice = Dice(5) # Initialize with 5 dice.
 dice.roll(shake=True, strength=10) # Roll the dice
